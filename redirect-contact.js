@@ -1,0 +1,3 @@
+function URLContact() {
+    location.href = "";
+}

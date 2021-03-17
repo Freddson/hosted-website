@@ -9,20 +9,36 @@
 .container {
     width: 100%;
     height: 100%;
-    background: #434c5e;
+    background: #3b4252;
+}
+
+.menubar {
+    width: 95%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    cursor: pointer;
 }
 
 .menubar ul {
-    width: 100%;
-    display: inline-flex;
-    margin: 50px;
+    width: 80%;
+    display: flex;
 }
 
-.menubar ul li {
-    list-style: none;
-    margin: 0 20px;
-    color: #d8dee9;
+.menubar p {
+    display: flex;
+    margin-right: 500px;
     cursor: pointer;
+    text-align: center;
+}
+
+.menutexts {
+    color: #d8dee9;
 }
 
 .bigtext {

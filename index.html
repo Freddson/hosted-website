@@ -7,21 +7,49 @@
     <body>
         <div class=container>
             <div class=menubar>
-                <ul>
-                  <li>Home</li>
-                  <li>Resume</li>  
-                  <li>Contact</li>
-                </ul>
+                <p style="float: left;"><img class="logo" src="rsz_obraz_2021-03-17_175055.png" width="50px"></p>
+                <p class="menutexts" onClick=location.href='index.html'>Home</p>
+                <p class="menutexts">Resume</p>
+                <p class="menutexts" onClick=location.href='contact.html'>Contact</p>
             </div>
         </div>
 
         <img class="welcomephoto" src="welcomephoto.PNG">
         <div>
             <p style="float: right; padding-right: 250px; padding-bottom: 100px;"><img src="circle-cropped.png" height="250px" width="250px"></p>
-            <h2 class="bigtext">
-                I am a young software developer, which is interested in  
-            </h2>
+            <h2 class="bigtext">I am a young software developer, which is interested in</h2>
             <h2 class="bigtext">cryptocurrencies and Linux.</h2>
         </div>
+
+        <h2 class="bigtext">Check out my stuff!</h2>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="img1.jpg" style="width:100%">
+              <div class="text">Akaricoin</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="img2.jpg" style="width:100%">
+              <div class="text">box</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="img3.jpg" style="width:100%">
+              <div class="text">This website</div>
+            </div>
+          
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
     </body>
 </html>
