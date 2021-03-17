@@ -32,14 +32,14 @@
 
 .menubar p {
     display: flex;
-    margin-right: 500px;
+    margin-right: 50px;
     cursor: pointer;
     text-align: center;
 }
 
 .menutexts {
     color: #d8dee9;
-    font-family: 'Open Sans'
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .bigtext {
