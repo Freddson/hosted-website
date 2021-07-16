@@ -1,0 +1,22 @@
+body {
+    background-color: blue;
+}
+
+.no-page {
+    text-align: center; color: white; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face {
+    font-family: "Inconsolata";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Inconsolata"), url("http://themes.googleusercontent.com/static/fonts/inconsolata/v3/BjAYBlHtW3CJxDcjzrnZCIbN6UDyHWBl620a-IRfuBk.woff") format("woff");
+}
+
+.clockcustom {
+    font-family: "Inconsolata";
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
